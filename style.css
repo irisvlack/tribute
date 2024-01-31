@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #faf6eb; /* Vintage paper color */
+  }
+  
+  header {
+    background-color: #593927; /* Burnt edges color */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 8px solid #593927; /* Border to simulate burnt edges */
+  }
+  
+  section {
+    background-color: #e6e0d4; /* Faded vintage paper color */
+    color: #2c2926; /* Dark text color */
+    padding: 20px;
+    margin: 20px;
+    border: 4px solid #593927; /* Border to simulate burnt edges */
+    border-radius: 8px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  section::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url('burnt-texture.png') repeat; /* Distressed texture */
+  }
+  
+  section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  section p {
+    text-align: justify;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #593927; /* Burnt edges color */
+    color: #fff;
+    border-top: 8px solid #593927; /* Border to simulate burnt edges */
+  }
+  
