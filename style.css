@@ -9,7 +9,7 @@ body {
     color: #fff;
     padding: 20px;
     text-align: center;
-    border-bottom: 8px solid #593927; /* Border to simulate burnt edges */
+    border-bottom: 8px solid #593927; 
   }
   
   section {
@@ -47,7 +47,7 @@ body {
   footer {
     text-align: center;
     padding: 10px;
-    background-color: #593927; /* Burnt edges color */
+    background-color: #593927; 
     color: #fff;
     border-top: 8px solid #593927; 
   }
